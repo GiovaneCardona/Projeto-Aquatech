@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+
+.header{
+background-color: black;
+
+}
+
+.container{
+    width: 80%;
+    border: 3px solid purple;
+   margin: 0 10% 0 10%;
+   display: flex;
+   justify-content: space-between;
+}
+
+h1{
+    color: #32b9cd;
+    margin: 0;
+}
+.navbar{
+    color: rgb(255,255,0);;
+}
