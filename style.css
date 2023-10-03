@@ -5,21 +5,59 @@ body{
 
 .header{
 background-color: black;
-
+width: 100%;
+height: 100px;
+border-bottom: 4px solid #32b9cd
 }
 
-.container{
+.header .container{
+    height: 100px;
     width: 80%;
-    border: 3px solid purple;
    margin: 0 10% 0 10%;
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 
-h1{
+.header .container h1{
     color: #32b9cd;
     margin: 0;
+
 }
-.navbar{
-    color: rgb(255,255,0);;
+.header .container .navbar{
+    list-style: none;
+}
+
+.header .container .navbar li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.header .container .navbar li a{
+    color: #ff7700;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url(Imagens/bg-jelly-fish-para_outras_pags.png);
+
+}
+
+.banner .container{
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner .container p{
+    color: white;
+    margin: 0;
+    font-size: 32px;
+    width: 10%;
 }
